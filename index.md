@@ -24,6 +24,7 @@ Load Intel uses the following third-party services to provide weather data:
 
 - **NOAA Weather API** (api.weather.gov) - Provides weather conditions for range sessions. Only available for US locations. We send your GPS coordinates to NOAA to retrieve local weather data.
 - **Zippopotam.us** - Converts ZIP codes to geographic coordinates. We send your entered ZIP code to this service for location lookup.
+- **Nominatim (OpenStreetMap)** - Converts coordinates to readable addresses for weather data.
 
 No personal information is collected or stored by these services beyond the geographic data needed to provide weather information.
 
