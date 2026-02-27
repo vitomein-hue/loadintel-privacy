@@ -1,64 +1,44 @@
-# Load Intel Privacy Policy
+# Privacy Policy for Load Intel
 
-Last updated: 2026-01-25
-
-Load Intel is an offline-first mobile application for logging ammunition reloading data and range test results.
+**Last Updated:** February 27, 2026
 
 ## Information We Collect
 
-Load Intel does not collect, transmit, or store any personal data on external servers.
+Load Intel stores all your reloading data locally on your device. We do not collect, transmit, or store any personal information on our servers.
 
-All data entered into the app, including:
-- Load recipes
-- Firearms
-- Range results
-- Photos
-- Notes
-- Inventory data
+## Data Storage
 
-is stored locally on your device only.
+All load recipes, range test data, photos, and notes are stored locally on your device using SQLite. This data never leaves your device unless you explicitly export it.
 
-## Photos and Media
+## Location Data
 
-Load Intel allows users to take photos of shooting targets or select photos from their device.
+Load Intel requests access to your location only when you choose to record weather conditions during range sessions. Location data is used solely to fetch local weather information and is not stored or transmitted elsewhere.
 
-These photos are saved to the device’s local photo gallery in an album called "Load Intel".  
-The app only stores a reference to those images so they can be displayed in the app.
+## Camera and Photo Access
 
-Load Intel does not upload, transmit, or share your photos.
+Load Intel requests camera and photo library access to allow you to attach target photos to your load data. Photos are stored locally on your device and are not uploaded or shared.
 
-## Permissions
+## Third-Party Services
 
-Load Intel may request the following permissions:
-- Camera (to take target photos)
-- Photos / Media (to save and display target images)
-- Storage (for local backup and restore)
+Load Intel uses the following third-party services to provide weather data:
 
-These permissions are used only for app functionality and never for data collection.
+- **NOAA Weather API** (api.weather.gov) - Provides weather conditions for range sessions. Only available for US locations. We send your GPS coordinates to NOAA to retrieve local weather data.
+- **Zippopotam.us** - Converts ZIP codes to geographic coordinates. We send your entered ZIP code to this service for location lookup.
 
-## Data Sharing
+No personal information is collected or stored by these services beyond the geographic data needed to provide weather information.
 
-Load Intel does not:
-- Sell data
-- Share data
-- Upload data
-- Transmit data to any server
-- Use analytics or tracking
+## In-App Purchases
 
-All data remains on your device.
+Load Intel offers a lifetime access purchase through Apple App Store and Google Play Store. Purchase transactions are processed entirely by Apple and Google. We do not collect or store your payment information.
 
-## Backups and Exports
+## Data Backup and Export
 
-If you use the backup or export features, files are created on your device and are fully controlled by you.
+You can export your data at any time. Exported files contain only your reloading data and are stored locally on your device. It is your responsibility to secure exported files.
 
-Load Intel does not receive or store your backups.
+## Changes to This Policy
 
-## Children
-
-Load Intel is not designed for children under 13.
+We may update this privacy policy from time to time. Changes will be posted on this page with an updated "Last Updated" date.
 
 ## Contact
 
-If you have questions about this privacy policy, you may contact:
-
-huntintelapp@gmail.com
+If you have questions about this privacy policy, please contact: HUNTINTELAPP@GMAIL.COM
